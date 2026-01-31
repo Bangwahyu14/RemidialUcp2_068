@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Remidi_ucp2</string>
+    <string name="title_daftar_buku">Manajemen Aset Buku</string>
+    <string name="title_kategori">Hierarki Kategori</string>
+    <string name="title_penulis">Daftar Penulis</string>
+
+    <string name="err_cyclic">Peringatan: Struktur kategori menyebabkan perulangan tak terbatas (Cyclic Reference)!</string>
+    <string name="err_rollback">Operasi dibatalkan: Masih ada buku yang statusnya "Dipinjam" dalam kategori ini.</string>
+    <string name="err_invalid_type">Kesalahan: Tipe data yang Anda masukkan tidak valid.</string>
+
+    <string name="dialog_delete_title">Konfirmasi Penghapusan</string>
+    <string name="dialog_delete_msg">Kategori ini aman untuk dihapus. Apa tindakan untuk buku di dalamnya?</string>
+    <string name="action_soft_delete">Hapus Logis (Soft Delete)</string>
+    <string name="action_move_category">Pindahkan ke "Tanpa Kategori"</string>
+
+    <string name="status_tersedia">Tersedia</string>
+    <string name="status_dipinjam">Dipinjam</string>
+</resources>
